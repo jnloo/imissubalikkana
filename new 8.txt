@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> imisssu </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .lyrics-container {
+            width: 80%;
+            height: 80%;
+            overflow: hidden; /* Hide the overflow */
+            border: 2px solid #333;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .lyrics {
+            font-size: 20px;
+            line-height: 1.6;
+            animation: scrollLyrics 20s linear infinite; /* Animation to scroll */
+        }
+
+        @keyframes scrollLyrics {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics">
+             <p> Magaan na ba ang 'yong paghinga bumalik ka na sa'kin</p>
+			 <p> Klaro na ba ang isip sinta bumalik ka na sa'kin </p>
+			 <p> Hindi ka na nagparamdam</p>
+			 <p> Buhat ng cool off ako'y nahibang</p>
+			 <p> Sige na please 'wag nang mainis bumalik ka na sa'kin</p>
+			 <p> Sorry mahal ika'y nasaktan bumalik ka na sa'kin</p>
+			 <p> Bumalik ka na sa akin</p>
+			 <p> Kung pababayaan lang kita baka tuluyan ka nang mawala</p>
+			 <p> Sana naman pagbigyan mo na pangakong 'di na mauulit pa</p>
+			 <p> Katulad mong tao lang ako</p>
+			 <p> Napapasabak din sa gulo</p>
+			 <p> Sige na please 'wag nang mainis bumalik ka na sa'kin</p>
+			 <p> Sorry mahal ika'y nasaktan bumalik ka na sa'kin</p>
+			 <p> 'Wag mo sana akong ipagpalit (akong ipagpalit)</p>
+			 <p> Ikaw at ako na lang ulit</p>
+			 <p> Ulit</p>
+			 <p> Sige na please 'wag nang mainis bumalik ka na sa'kin</p>
+			 <p> Sorry mahal ika'y nasaktan bumalik ka na sa'kin</p>
+			 <p> Sige na please 'wag nang mainis bumalik ka na sa'kin</p>
+			 <p> Sorry mahal ika'y nasaktan bumalik ka na sa'kin</p>
+			 <p> Sige na please (bumalik ka na sa'kin)</p>
+			 <p> Sorry mahal (bumalik ka na sa'kin)</p>
+			 <p> Bumalik ka na sa akin </p>
+        </div>
+    </div>
+</body>
+</html>
